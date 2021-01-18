@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2E2BB33B-5BCB-4A31-8714-0084FAEFF8E0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>college</RootNamespace>
+    <AssemblyName>college</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutUs.Designer.cs">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTeacher.Designer.cs">
+      <DependentUpon>AddTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bustransport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bustransport.Designer.cs">
+      <DependentUpon>bustransport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fees.Designer.cs">
+      <DependentUpon>Fees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hostel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hostel.Designer.cs">
+      <DependentUpon>Hostel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IndividualStudentDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IndividualStudentDetails.Designer.cs">
+      <DependentUpon>IndividualStudentDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="New Admission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Admission.Designer.cs">
+      <DependentUpon>New Admission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoveStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveStudent.Designer.cs">
+      <DependentUpon>RemoveStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="removeteacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="removeteacher.Designer.cs">
+      <DependentUpon>removeteacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scholarship.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scholarship.Designer.cs">
+      <DependentUpon>Scholarship.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchStudent.Designer.cs">
+      <DependentUpon>SearchStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchTeacher.Designer.cs">
+      <DependentUpon>SearchTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Strper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Strper.Designer.cs">
+      <DependentUpon>Strper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentAtHostel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentAtHostel.Designer.cs">
+      <DependentUpon>StudentAtHostel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentFeesPaid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentFeesPaid.Designer.cs">
+      <DependentUpon>StudentFeesPaid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentPer.Designer.cs">
+      <DependentUpon>StudentPer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentsAppliedForScholarShip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentsAppliedForScholarShip.Designer.cs">
+      <DependentUpon>StudentsAppliedForScholarShip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentUsingTransport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentUsingTransport.Designer.cs">
+      <DependentUpon>StudentUsingTransport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="upgreadSem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="upgreadSem.Designer.cs">
+      <DependentUpon>upgreadSem.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutUs.resx">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTeacher.resx">
+      <DependentUpon>AddTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bustransport.resx">
+      <DependentUpon>bustransport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fees.resx">
+      <DependentUpon>Fees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hostel.resx">
+      <DependentUpon>Hostel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IndividualStudentDetails.resx">
+      <DependentUpon>IndividualStudentDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Admission.resx">
+      <DependentUpon>New Admission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RemoveStudent.resx">
+      <DependentUpon>RemoveStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="removeteacher.resx">
+      <DependentUpon>removeteacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scholarship.resx">
+      <DependentUpon>Scholarship.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchStudent.resx">
+      <DependentUpon>SearchStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchTeacher.resx">
+      <DependentUpon>SearchTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strper.resx">
+      <DependentUpon>Strper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentAtHostel.resx">
+      <DependentUpon>StudentAtHostel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentFeesPaid.resx">
+      <DependentUpon>StudentFeesPaid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentPer.resx">
+      <DependentUpon>StudentPer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentsAppliedForScholarShip.resx">
+      <DependentUpon>StudentsAppliedForScholarShip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentUsingTransport.resx">
+      <DependentUpon>StudentUsingTransport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="upgreadSem.resx">
+      <DependentUpon>upgreadSem.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
